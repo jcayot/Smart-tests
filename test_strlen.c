@@ -6,7 +6,7 @@
 /*   By: jcayot <jcayot@student.hive.fi>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/06 13:32:18 by jcayot            #+#    #+#             */
-/*   Updated: 2023/11/06 13:32:20 by jcayot           ###   ########.fr       */
+/*   Updated: 2023/11/06 13:34:12 by jcayot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,6 @@ int	main()
 	printf("Taille : %lu time : %lf\n", system_result, system_time);
 	if (user_result != system_result) {
 		printf("Even your strlen is wrong you're definitely dumb as fuck !\n");
-		printf("Your dad was right to abandon you !\n");
 	} else if (system_time < user_time) {
 		printf("FAILED BRAINFAULT\n");
 		printf("Your strlen is %lf times slower than libc strlen.\nYou're retard. Kill yourself FAST !\n", user_time / system_time);
